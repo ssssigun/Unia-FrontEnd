@@ -1,0 +1,206 @@
+/*============================
+#wrap
+============================*/
+* {
+  font-size: 20px;
+}
+a {
+  display: inline-block;
+}
+#wrap {
+  /* 크기 지정 및 가운데로 이동 */
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*============================
+  #header-wrap
+  ============================*/
+#header-wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+/*============================
+  #logo
+  ============================*/
+#logo {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+#logo > a {
+  height: 100%;
+}
+#logo > a > img {
+  height: 100%;
+}
+
+/*============================
+  #menu-total
+  ============================*/
+#menu-total {
+  height: 50px;
+}
+#menu-total > ul {
+  display: flex;
+  height: 100%;
+  border: 1px solid #000;
+}
+.menu {
+  width: 25%;
+  height: 50px;
+  border-right: 1px solid #000;
+}
+.menu > a {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+.menu:last-child {
+  border-right: none;
+}
+
+/*============================
+  #main-wrap
+  ============================*/
+#main-wrap {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+/*============================
+#mainMenu
+============================*/
+#mainMenu {
+  width: 100%;
+  height: 100%;
+}
+
+#mainMenu > ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
+}
+#mainMenu > ul > li {
+  width: 500px;
+  margin: 20px;
+}
+#mainMenu > ul > li:hover {
+  background-color: #e8e6e6;
+}
+.menu-detail {
+  border: 1px solid #000;
+  display: none; 
+  background-color: #fff;
+}
+.menu-detail > li {
+  height: 50px;
+  border-bottom: 1px solid #000;
+}
+
+.menu-detail > li:last-child {
+  border-bottom: none;
+}
+.menu-detail > li > a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+
+.imgarea {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+}
+.goods {
+  width: 100%;
+  height: 100%;
+}
+.textarea {
+  width: 100%;
+}
+.textarea > p:first-of-type {
+  color: #999;
+}
+.card {
+  width: 100%;
+}
+
+/*============================
+  #footer-wrap
+  ============================*/
+#footer-wrap {
+  width: 100%;
+  display: flex;
+  background-color: #000;
+  box-sizing: border-box;
+  padding: 100px 200px;
+}
+
+/*============================  
+  #info
+  ============================*/
+#info {
+  display: flex;
+  width: 50%;
+}
+
+.infoMenu {
+  margin-right: 100px;
+  color: #999;
+}
+.infoMenu > li {
+  width: 200px;
+  height: 50px;
+}
+.infoMenuBigFont {
+  font-size: 20px;
+  color: #fff;
+}
+.infoMenuSmallFont {
+  font-size: 10px;
+  color: #999;
+}
+
+.infoMenu > li > a > span:hover {
+  text-decoration-line: underline;
+}
+/*============================
+  #icon
+  ============================*/
+#icon {
+  width: 50%;
+}
+#icon > ul {
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+}
+#icon > ul > li {
+  width: 50px;
+  height: 100%;
+  margin: 0px 14px;
+}
+#icon > ul > li > a {
+  display: inline-block;
+  width: 100%;
+}
+#icon > ul > li > a > img {
+  width: 100%;
+  height: 100%;
+}
+#icon > ul > li > a > img:hover {
+  width: 120%;
+}
